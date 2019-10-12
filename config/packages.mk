@@ -3,6 +3,7 @@ PRODUCT_PACKAGES += \
     OmniRecord \
     OmniStyle \
     PixelLiveWallpaperPrebuilt \
+    PixelThemes \
     ThemePicker
 
 ifeq ($(filter-out Official CI Private, $(DERP_BUILDTYPE)),)
