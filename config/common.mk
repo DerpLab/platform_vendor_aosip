@@ -121,10 +121,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
-# Device Personalization Services overlay
-    PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel4Overlay
-
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
