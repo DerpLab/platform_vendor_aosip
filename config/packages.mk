@@ -1,9 +1,3 @@
-# Required packages
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    ThemePicker \
-    Updater
-
 # Extra tools in AOSiP
 PRODUCT_PACKAGES += \
     7z \
