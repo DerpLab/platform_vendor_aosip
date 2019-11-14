@@ -1,9 +1,9 @@
 # Required packages
 PRODUCT_PACKAGES += \
+    DerpFestThemeStub \
     OmniRecord \
     OmniStyle \
     PixelLiveWallpaperPrebuilt \
-    PixelThemes \
     ThemePicker
 
 ifeq ($(filter-out Official CI Private, $(DERP_BUILDTYPE)),)
