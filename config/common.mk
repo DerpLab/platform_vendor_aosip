@@ -116,6 +116,9 @@ include vendor/aosip/config/fonts.mk
 # Packages
 include vendor/aosip/config/packages.mk
 
+# Themes
+include vendor/aosip/config/accents.mk
+
 # Versioning
 include vendor/aosip/config/version.mk
 
