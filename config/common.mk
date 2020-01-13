@@ -123,7 +123,11 @@ PRODUCT_PACKAGES += \
     themed_bootanimation
 
 # GApps
+ifeq ($(NO_GAPPS_BUILD),true)
+#include vendor/gapps/config.mk
+else
 include vendor/gapps/config.mk
+endif
 
 # Pixel Style
 include vendor/pixelstyle/config.mk
