@@ -23,7 +23,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 ifeq ($(DERP_BUILD_ZIP_TYPE), VANILLA)
 PRODUCT_PACKAGES += \
-    libjni_latinimegoogle
+    libjni_latinimegoogle \
+    SettingsIntelligence
 endif
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
