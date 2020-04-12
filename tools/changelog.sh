@@ -49,6 +49,7 @@ PROJECTPATHS=$(grep "<project" "${MANIFEST}" | sed -n 's/.*path="\([^"]\+\)".*/\
 
 # Add repos in local manifest for DT changelog
 for lManifest in $TOP/.repo/local_manifests/*; do
+	PROJECTPATHS+=" "
 	PROJECTPATHS+=$(grep "<project" "${lManifest}" | sed -n 's/.*path="\([^"]\+\)".*/\1/p')
 done
 
