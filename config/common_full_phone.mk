@@ -1,6 +1,9 @@
 # Inherit common stuff
 $(call inherit-product, vendor/aosip/config/common.mk)
 
+#Telephony
+IS_PHONE := true
+
 # World APN list
 PRODUCT_PACKAGES += \
     apns-conf.xml
